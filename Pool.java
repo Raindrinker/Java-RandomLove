@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Raindrinker on 27/02/2015.
@@ -31,7 +30,7 @@ public class Pool<T>{
      * Add aa ArrayList of objects to the pool
      * @param list ArrayList of objects
      */
-    public void addList(List<T> list){
+    public void addList(ArrayList<T> list){
         for(T r: list){
             pool.add(r);
         }
